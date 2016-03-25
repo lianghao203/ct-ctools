@@ -101,7 +101,6 @@ public class atct {
 		try {
 			lib = cl.loadClass(infomations.b);
 			jar = (uc) lib.newInstance();
-			// jar.init(context, appid, infomation.waittime);
 			jar.init(context, appid, infomations.waittime, infomations.channel);
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
@@ -126,26 +125,4 @@ public class atct {
 		return key;
 	}
 
-	// private static boolean checkTime() {
-	// Editor editor = sp.edit();
-	// long now = System.currentTimeMillis();
-	// long preTime = sp.getLong(info.c, 0);
-	// long period = (now - preTime) / (1000 * 60 );
-	// if (period >= 29 || preTime == 0) {
-	// editor.putLong(info.c, System.currentTimeMillis());
-	// editor.commit();
-	// return true;
-	// } else {
-	// return false;
-	// }
-	// }
-	// private static boolean checkjar() {
-	// jarName = sp.getString(info.f, "");
-	// File jarfile = new File(context.getFilesDir(), jarName);
-	// if (jarfile.exists()&&!jarName.equals("")) {
-	// return true;
-	// } else {
-	// return false;
-	// }
-	// }
 }
