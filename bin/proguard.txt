@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:32
+-keep class a.z.DL { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class a.z.MainActivity { <init>(...); }
+

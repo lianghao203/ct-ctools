@@ -1,0 +1,1807 @@
+_____________________________________________________________________
++ Program class: a/z/DL
+  Superclass:    android/content/BroadcastReceiver
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class a.z.DL extends android.content.BroadcastReceiver
+
+Interfaces (count = 0):
+
+Constant Pool (count = 24):
+  + Class [a/z/DL]
+  + Class [a/z/a]
+  + Class [android/content/BroadcastReceiver]
+  + Class [t/f/k/uc]
+  + Fieldref [a/z/a.a Lt/f/k/uc;]
+  + Methodref [android/content/BroadcastReceiver.<init> ()V]
+  + InterfaceMethodref [t/f/k/uc.check (Landroid/content/Context;Landroid/content/Intent;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lt/f/k/uc;]
+  + NameAndType [check (Landroid/content/Context;Landroid/content/Intent;)V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;Landroid/content/Intent;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lt/f/k/uc;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [a/z/DL]
+  + Utf8 [a/z/a]
+  + Utf8 [android/content/BroadcastReceiver]
+  + Utf8 [check]
+  + Utf8 [onReceive]
+  + Utf8 [t/f/k/uc]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public DL()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #6
+        + Methodref [android/content/BroadcastReceiver.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+    Access flags: 0x1
+      = public void onReceive(android.content.Context,android.content.Intent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 17, locals = 3, stack = 3):
+      [0] getstatic #5
+        + Fieldref [a/z/a.a Lt/f/k/uc;]
+      [3] ifnull +13 (target=16)
+      [6] getstatic #5
+        + Fieldref [a/z/a.a Lt/f/k/uc;]
+      [9] aload_1 v1
+      [10] aload_2 v2
+      [11] invokeinterface #7
+        + InterfaceMethodref [t/f/k/uc.check (Landroid/content/Context;Landroid/content/Intent;)V]
+      [16] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [16] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: a/z/MainActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class a.z.MainActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 25):
+  + Integer [2130903040]
+  + Class [a/z/MainActivity]
+  + Class [a/z/a]
+  + Class [android/app/Activity]
+  + Methodref [a/z/MainActivity.setContentView (I)V]
+  + Methodref [a/z/a.a (Landroid/content/Context;)V]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Landroid/content/Context;)V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [a]
+  + Utf8 [a/z/MainActivity]
+  + Utf8 [a/z/a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #7
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #8
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #5
+        + Methodref [a/z/MainActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] invokestatic #6
+        + Methodref [a/z/a.a (Landroid/content/Context;)V]
+      [15] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: a/z/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class a.z.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 190):
+  + String []
+  + Class [a/z/a]
+  + Class [a/z/b]
+  + Class [a/z/c]
+  + Class [android/content/Context]
+  + Class [android/content/SharedPreferences]
+  + Class [android/content/SharedPreferences$Editor]
+  + Class [android/content/res/AssetManager]
+  + Class [dalvik/system/DexClassLoader]
+  + Class [java/io/File]
+  + Class [java/io/IOException]
+  + Class [java/io/InputStream]
+  + Class [java/lang/Class]
+  + Class [java/lang/ClassNotFoundException]
+  + Class [java/lang/Exception]
+  + Class [java/lang/IllegalAccessException]
+  + Class [java/lang/InstantiationException]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Class [t/f/k/uc]
+  + Fieldref [a/z/a.a Lt/f/k/uc;]
+  + Fieldref [a/z/a.b Landroid/content/Context;]
+  + Fieldref [a/z/a.c Ljava/lang/String;]
+  + Fieldref [a/z/a.d Ljava/lang/String;]
+  + Fieldref [a/z/c.a I]
+  + Fieldref [a/z/c.b I]
+  + Fieldref [a/z/c.h Ljava/lang/String;]
+  + Fieldref [a/z/c.o Ljava/lang/String;]
+  + Fieldref [a/z/c.s Ljava/lang/String;]
+  + Fieldref [a/z/c.v Ljava/lang/String;]
+  + Fieldref [a/z/c.y Ljava/lang/String;]
+  + Methodref [a/z/a.b (Landroid/content/Context;)Ljava/lang/String;]
+  + Methodref [a/z/a.b (Ljava/io/File;)V]
+  + Methodref [a/z/b.<init> (Landroid/content/SharedPreferences;)V]
+  + Methodref [a/z/b.start ()V]
+  + Methodref [android/content/Context.getApplicationContext ()Landroid/content/Context;]
+  + Methodref [android/content/Context.getAssets ()Landroid/content/res/AssetManager;]
+  + Methodref [android/content/Context.getClassLoader ()Ljava/lang/ClassLoader;]
+  + Methodref [android/content/Context.getFilesDir ()Ljava/io/File;]
+  + Methodref [android/content/Context.getSharedPreferences (Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+  + Methodref [android/content/res/AssetManager.open (Ljava/lang/String;)Ljava/io/InputStream;]
+  + Methodref [dalvik/system/DexClassLoader.<init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V]
+  + Methodref [dalvik/system/DexClassLoader.loadClass (Ljava/lang/String;)Ljava/lang/Class;]
+  + Methodref [java/io/File.<init> (Ljava/io/File;Ljava/lang/String;)V]
+  + Methodref [java/io/File.exists ()Z]
+  + Methodref [java/io/File.getAbsolutePath ()Ljava/lang/String;]
+  + Methodref [java/io/File.getPath ()Ljava/lang/String;]
+  + Methodref [java/io/IOException.printStackTrace ()V]
+  + Methodref [java/io/InputStream.available ()I]
+  + Methodref [java/io/InputStream.close ()V]
+  + Methodref [java/io/InputStream.read ([B)I]
+  + Methodref [java/lang/Class.newInstance ()Ljava/lang/Object;]
+  + Methodref [java/lang/ClassNotFoundException.printStackTrace ()V]
+  + Methodref [java/lang/IllegalAccessException.printStackTrace ()V]
+  + Methodref [java/lang/InstantiationException.printStackTrace ()V]
+  + Methodref [java/lang/String.<init> ([B)V]
+  + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  + Methodref [java/lang/String.trim ()Ljava/lang/String;]
+  + InterfaceMethodref [android/content/SharedPreferences.edit ()Landroid/content/SharedPreferences$Editor;]
+  + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + InterfaceMethodref [android/content/SharedPreferences$Editor.commit ()Z]
+  + InterfaceMethodref [android/content/SharedPreferences$Editor.putString (Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
+  + InterfaceMethodref [t/f/k/uc.init (Landroid/content/Context;Ljava/lang/String;II)V]
+  + NameAndType [<init> (Landroid/content/SharedPreferences;)V]
+  + NameAndType [<init> (Ljava/io/File;Ljava/lang/String;)V]
+  + NameAndType [<init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V]
+  + NameAndType [<init> ([B)V]
+  + NameAndType [a I]
+  + NameAndType [a Lt/f/k/uc;]
+  + NameAndType [available ()I]
+  + NameAndType [b (Landroid/content/Context;)Ljava/lang/String;]
+  + NameAndType [b (Ljava/io/File;)V]
+  + NameAndType [b I]
+  + NameAndType [b Landroid/content/Context;]
+  + NameAndType [c Ljava/lang/String;]
+  + NameAndType [close ()V]
+  + NameAndType [commit ()Z]
+  + NameAndType [d Ljava/lang/String;]
+  + NameAndType [edit ()Landroid/content/SharedPreferences$Editor;]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [exists ()Z]
+  + NameAndType [getAbsolutePath ()Ljava/lang/String;]
+  + NameAndType [getApplicationContext ()Landroid/content/Context;]
+  + NameAndType [getAssets ()Landroid/content/res/AssetManager;]
+  + NameAndType [getClassLoader ()Ljava/lang/ClassLoader;]
+  + NameAndType [getFilesDir ()Ljava/io/File;]
+  + NameAndType [getPath ()Ljava/lang/String;]
+  + NameAndType [getSharedPreferences (Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+  + NameAndType [getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [h Ljava/lang/String;]
+  + NameAndType [init (Landroid/content/Context;Ljava/lang/String;II)V]
+  + NameAndType [loadClass (Ljava/lang/String;)Ljava/lang/Class;]
+  + NameAndType [newInstance ()Ljava/lang/Object;]
+  + NameAndType [o Ljava/lang/String;]
+  + NameAndType [open (Ljava/lang/String;)Ljava/io/InputStream;]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [putString (Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
+  + NameAndType [read ([B)I]
+  + NameAndType [s Ljava/lang/String;]
+  + NameAndType [start ()V]
+  + NameAndType [trim ()Ljava/lang/String;]
+  + NameAndType [v Ljava/lang/String;]
+  + NameAndType [y Ljava/lang/String;]
+  + Utf8 []
+  + Utf8 [()I]
+  + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()Landroid/content/SharedPreferences$Editor;]
+  + Utf8 [()Landroid/content/res/AssetManager;]
+  + Utf8 [()Ljava/io/File;]
+  + Utf8 [()Ljava/lang/ClassLoader;]
+  + Utf8 [()Ljava/lang/Object;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(Landroid/content/Context;)Ljava/lang/String;]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;II)V]
+  + Utf8 [(Landroid/content/SharedPreferences;)V]
+  + Utf8 [(Ljava/io/File;)V]
+  + Utf8 [(Ljava/io/File;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)Ljava/io/InputStream;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Class;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V]
+  + Utf8 [([B)I]
+  + Utf8 [([B)V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Lt/f/k/uc;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [a/z/a]
+  + Utf8 [a/z/b]
+  + Utf8 [a/z/c]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/SharedPreferences]
+  + Utf8 [android/content/SharedPreferences$Editor]
+  + Utf8 [android/content/res/AssetManager]
+  + Utf8 [available]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [close]
+  + Utf8 [commit]
+  + Utf8 [d]
+  + Utf8 [dalvik/system/DexClassLoader]
+  + Utf8 [edit]
+  + Utf8 [equals]
+  + Utf8 [exists]
+  + Utf8 [getAbsolutePath]
+  + Utf8 [getApplicationContext]
+  + Utf8 [getAssets]
+  + Utf8 [getClassLoader]
+  + Utf8 [getFilesDir]
+  + Utf8 [getPath]
+  + Utf8 [getSharedPreferences]
+  + Utf8 [getString]
+  + Utf8 [h]
+  + Utf8 [init]
+  + Utf8 [java/io/File]
+  + Utf8 [java/io/IOException]
+  + Utf8 [java/io/InputStream]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/ClassNotFoundException]
+  + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/IllegalAccessException]
+  + Utf8 [java/lang/InstantiationException]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [loadClass]
+  + Utf8 [newInstance]
+  + Utf8 [o]
+  + Utf8 [open]
+  + Utf8 [printStackTrace]
+  + Utf8 [putString]
+  + Utf8 [read]
+  + Utf8 [s]
+  + Utf8 [start]
+  + Utf8 [t/f/k/uc]
+  + Utf8 [trim]
+  + Utf8 [v]
+  + Utf8 [y]
+
+Fields (count = 4):
+  + Field:        b Landroid/content/Context;
+    Access flags: 0xa
+      = private static android.content.Context b
+  + Field:        c Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String c
+  + Field:        d Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String d
+  + Field:        a Lt/f/k/uc;
+    Access flags: 0x9
+      = public static t.f.k.uc a
+
+Methods (count = 8):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 0, stack = 1):
+      [0] ldc #1
+        + String []
+      [2] putstatic #24
+        + Fieldref [a/z/a.d Ljava/lang/String;]
+      [5] aconst_null
+      [6] putstatic #21
+        + Fieldref [a/z/a.a Lt/f/k/uc;]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Landroid/content/Context;)V
+    Access flags: 0x9
+      = public static void a(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 150, locals = 5, stack = 4):
+      [0] aload_0 v0
+      [1] invokevirtual #36
+        + Methodref [android/content/Context.getApplicationContext ()Landroid/content/Context;]
+      [4] putstatic #22
+        + Fieldref [a/z/a.b Landroid/content/Context;]
+      [7] getstatic #22
+        + Fieldref [a/z/a.b Landroid/content/Context;]
+      [10] getstatic #27
+        + Fieldref [a/z/c.h Ljava/lang/String;]
+      [13] iconst_0
+      [14] invokevirtual #40
+        + Methodref [android/content/Context.getSharedPreferences (Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+      [17] astore_1 v1
+      [18] getstatic #22
+        + Fieldref [a/z/a.b Landroid/content/Context;]
+      [21] invokestatic #32
+        + Methodref [a/z/a.b (Landroid/content/Context;)Ljava/lang/String;]
+      [24] putstatic #23
+        + Fieldref [a/z/a.c Ljava/lang/String;]
+      [27] getstatic #23
+        + Fieldref [a/z/a.c Ljava/lang/String;]
+      [30] ifnull +119 (target=149)
+      [33] aload_1 v1
+      [34] invokeinterface #59
+        + InterfaceMethodref [android/content/SharedPreferences.edit ()Landroid/content/SharedPreferences$Editor;]
+      [39] astore_2 v2
+      [40] aload_2 v2
+      [41] getstatic #31
+        + Fieldref [a/z/c.y Ljava/lang/String;]
+      [44] getstatic #23
+        + Fieldref [a/z/a.c Ljava/lang/String;]
+      [47] invokeinterface #62
+        + InterfaceMethodref [android/content/SharedPreferences$Editor.putString (Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
+      [52] pop
+      [53] aload_2 v2
+      [54] invokeinterface #61
+        + InterfaceMethodref [android/content/SharedPreferences$Editor.commit ()Z]
+      [59] pop
+      [60] aload_1 v1
+      [61] getstatic #30
+        + Fieldref [a/z/c.v Ljava/lang/String;]
+      [64] ldc #1
+        + String []
+      [66] invokeinterface #60
+        + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+      [71] putstatic #24
+        + Fieldref [a/z/a.d Ljava/lang/String;]
+      [74] new #10
+        + Class [java/io/File]
+      [77] dup
+      [78] getstatic #22
+        + Fieldref [a/z/a.b Landroid/content/Context;]
+      [81] invokevirtual #39
+        + Methodref [android/content/Context.getFilesDir ()Ljava/io/File;]
+      [84] getstatic #24
+        + Fieldref [a/z/a.d Ljava/lang/String;]
+      [87] invokespecial #44
+        + Methodref [java/io/File.<init> (Ljava/io/File;Ljava/lang/String;)V]
+      [90] astore_3 v3
+      [91] aload_3 v3
+      [92] invokevirtual #45
+        + Methodref [java/io/File.exists ()Z]
+      [95] ifeq +43 (target=138)
+      [98] getstatic #24
+        + Fieldref [a/z/a.d Ljava/lang/String;]
+      [101] ldc #1
+        + String []
+      [103] invokevirtual #57
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [106] ifne +32 (target=138)
+      [109] new #10
+        + Class [java/io/File]
+      [112] dup
+      [113] getstatic #22
+        + Fieldref [a/z/a.b Landroid/content/Context;]
+      [116] invokevirtual #39
+        + Methodref [android/content/Context.getFilesDir ()Ljava/io/File;]
+      [119] getstatic #24
+        + Fieldref [a/z/a.d Ljava/lang/String;]
+      [122] invokespecial #44
+        + Methodref [java/io/File.<init> (Ljava/io/File;Ljava/lang/String;)V]
+      [125] astore_3 v3
+      [126] goto +5 (target=131)
+      [129] astore v4
+      [131] aload_3 v3
+      [132] invokestatic #33
+        + Methodref [a/z/a.b (Ljava/io/File;)V]
+      [135] goto +14 (target=149)
+      [138] new #3
+        + Class [a/z/b]
+      [141] dup
+      [142] aload_1 v1
+      [143] invokespecial #34
+        + Methodref [a/z/b.<init> (Landroid/content/SharedPreferences;)V]
+      [146] invokevirtual #35
+        + Methodref [a/z/b.start ()V]
+      [149] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (109 -> 126: 129):
+      + Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [129] Var: [a:android/content/Context][a:android/content/SharedPreferences][a:android/content/SharedPreferences$Editor][a:java/io/File], Stack: [a:java/lang/Exception]
+        - [131] Var: ..., Stack: (empty)
+        - [138] Var: ..., Stack: (empty)
+        - [149] Var: -2, Stack: (empty)
+  + Method:       b(Ljava/io/File;)V
+    Access flags: 0xa
+      = private static void b(java.io.File)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 91, locals = 4, stack = 6):
+      [0] new #9
+        + Class [dalvik/system/DexClassLoader]
+      [3] dup
+      [4] aload_0 v0
+      [5] invokevirtual #46
+        + Methodref [java/io/File.getAbsolutePath ()Ljava/lang/String;]
+      [8] getstatic #22
+        + Fieldref [a/z/a.b Landroid/content/Context;]
+      [11] invokevirtual #39
+        + Methodref [android/content/Context.getFilesDir ()Ljava/io/File;]
+      [14] invokevirtual #47
+        + Methodref [java/io/File.getPath ()Ljava/lang/String;]
+      [17] aconst_null
+      [18] getstatic #22
+        + Fieldref [a/z/a.b Landroid/content/Context;]
+      [21] invokevirtual #38
+        + Methodref [android/content/Context.getClassLoader ()Ljava/lang/ClassLoader;]
+      [24] invokespecial #42
+        + Methodref [dalvik/system/DexClassLoader.<init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V]
+      [27] astore_1 v1
+      [28] aload_1 v1
+      [29] getstatic #28
+        + Fieldref [a/z/c.o Ljava/lang/String;]
+      [32] invokevirtual #43
+        + Methodref [dalvik/system/DexClassLoader.loadClass (Ljava/lang/String;)Ljava/lang/Class;]
+      [35] astore_2 v2
+      [36] aload_2 v2
+      [37] invokevirtual #52
+        + Methodref [java/lang/Class.newInstance ()Ljava/lang/Object;]
+      [40] checkcast #20
+        + Class [t/f/k/uc]
+      [43] putstatic #21
+        + Fieldref [a/z/a.a Lt/f/k/uc;]
+      [46] getstatic #21
+        + Fieldref [a/z/a.a Lt/f/k/uc;]
+      [49] getstatic #22
+        + Fieldref [a/z/a.b Landroid/content/Context;]
+      [52] getstatic #23
+        + Fieldref [a/z/a.c Ljava/lang/String;]
+      [55] getstatic #26
+        + Fieldref [a/z/c.b I]
+      [58] getstatic #25
+        + Fieldref [a/z/c.a I]
+      [61] invokeinterface #63
+        + InterfaceMethodref [t/f/k/uc.init (Landroid/content/Context;Ljava/lang/String;II)V]
+      [66] goto +24 (target=90)
+      [69] astore_3 v3
+      [70] aload_3 v3
+      [71] invokevirtual #53
+        + Methodref [java/lang/ClassNotFoundException.printStackTrace ()V]
+      [74] goto +16 (target=90)
+      [77] astore_3 v3
+      [78] aload_3 v3
+      [79] invokevirtual #55
+        + Methodref [java/lang/InstantiationException.printStackTrace ()V]
+      [82] goto +8 (target=90)
+      [85] astore_3 v3
+      [86] aload_3 v3
+      [87] invokevirtual #54
+        + Methodref [java/lang/IllegalAccessException.printStackTrace ()V]
+      [90] return
+      Code attribute exceptions (count = 3):
+      - ExceptionInfo (28 -> 66: 69):
+      + Class [java/lang/ClassNotFoundException]
+      - ExceptionInfo (28 -> 66: 77):
+      + Class [java/lang/InstantiationException]
+      - ExceptionInfo (28 -> 66: 85):
+      + Class [java/lang/IllegalAccessException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [69] Var: [a:java/io/File][a:dalvik/system/DexClassLoader], Stack: [a:java/lang/ClassNotFoundException]
+        - [77] Var: ..., Stack: [a:java/lang/InstantiationException]
+        - [85] Var: ..., Stack: [a:java/lang/IllegalAccessException]
+        - [90] Var: ..., Stack: (empty)
+  + Method:       b(Landroid/content/Context;)Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String b(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 52, locals = 4, stack = 3):
+      [0] aconst_null
+      [1] astore_1 v1
+      [2] aload_0 v0
+      [3] invokevirtual #37
+        + Methodref [android/content/Context.getAssets ()Landroid/content/res/AssetManager;]
+      [6] getstatic #29
+        + Fieldref [a/z/c.s Ljava/lang/String;]
+      [9] invokevirtual #41
+        + Methodref [android/content/res/AssetManager.open (Ljava/lang/String;)Ljava/io/InputStream;]
+      [12] astore_2 v2
+      [13] aload_2 v2
+      [14] invokevirtual #49
+        + Methodref [java/io/InputStream.available ()I]
+      [17] newarray 8
+      [19] astore_3 v3
+      [20] aload_2 v2
+      [21] aload_3 v3
+      [22] invokevirtual #51
+        + Methodref [java/io/InputStream.read ([B)I]
+      [25] pop
+      [26] aload_2 v2
+      [27] invokevirtual #50
+        + Methodref [java/io/InputStream.close ()V]
+      [30] new #19
+        + Class [java/lang/String]
+      [33] dup
+      [34] aload_3 v3
+      [35] invokespecial #56
+        + Methodref [java/lang/String.<init> ([B)V]
+      [38] invokevirtual #58
+        + Methodref [java/lang/String.trim ()Ljava/lang/String;]
+      [41] astore_1 v1
+      [42] goto +8 (target=50)
+      [45] astore_2 v2
+      [46] aload_2 v2
+      [47] invokevirtual #48
+        + Methodref [java/io/IOException.printStackTrace ()V]
+      [50] aload_1 v1
+      [51] areturn
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (2 -> 42: 45):
+      + Class [java/io/IOException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [45] Var: [a:android/content/Context][a:java/lang/String], Stack: [a:java/io/IOException]
+        - [50] Var: ..., Stack: (empty)
+  + Method:       a(Ljava/lang/String;)V
+    Access flags: 0x1008
+      = static synthetic void a(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] putstatic #24
+        + Fieldref [a/z/a.d Ljava/lang/String;]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()Ljava/lang/String;
+    Access flags: 0x1008
+      = static synthetic java.lang.String a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 4, locals = 0, stack = 1):
+      [0] getstatic #24
+        + Fieldref [a/z/a.d Ljava/lang/String;]
+      [3] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b()Landroid/content/Context;
+    Access flags: 0x1008
+      = static synthetic android.content.Context b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 4, locals = 0, stack = 1):
+      [0] getstatic #22
+        + Fieldref [a/z/a.b Landroid/content/Context;]
+      [3] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/io/File;)V
+    Access flags: 0x1008
+      = static synthetic void a(java.io.File)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokestatic #33
+        + Methodref [a/z/a.b (Ljava/io/File;)V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: a/z/b
+  Superclass:    java/lang/Thread
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class a.z.b extends java.lang.Thread
+
+Interfaces (count = 0):
+
+Constant Pool (count = 186):
+  + String [/]
+  + Class [[B]
+  + Class [a/z/a]
+  + Class [a/z/b]
+  + Class [a/z/c]
+  + Class [android/content/Context]
+  + Class [android/content/SharedPreferences]
+  + Class [android/content/SharedPreferences$Editor]
+  + Class [android/os/Looper]
+  + Class [java/io/File]
+  + Class [java/io/FileOutputStream]
+  + Class [java/io/IOException]
+  + Class [java/io/InputStream]
+  + Class [java/lang/String]
+  + Class [java/lang/Thread]
+  + Class [java/net/URI]
+  + Class [java/net/URISyntaxException]
+  + Class [org/apache/http/HttpEntity]
+  + Class [org/apache/http/HttpResponse]
+  + Class [org/apache/http/client/ClientProtocolException]
+  + Class [org/apache/http/client/HttpClient]
+  + Class [org/apache/http/client/methods/HttpGet]
+  + Class [org/apache/http/conn/ClientConnectionManager]
+  + Class [org/apache/http/impl/client/DefaultHttpClient]
+  + Fieldref [a/z/b.a Ljava/lang/String;]
+  + Fieldref [a/z/b.b Landroid/content/SharedPreferences;]
+  + Fieldref [a/z/c.N Ljava/lang/String;]
+  + Fieldref [a/z/c.v Ljava/lang/String;]
+  + Fieldref [a/z/c.w Ljava/lang/String;]
+  + Fieldref [a/z/c.x Ljava/lang/String;]
+  + Methodref [a/z/a.a ()Ljava/lang/String;]
+  + Methodref [a/z/a.a (Ljava/io/File;)V]
+  + Methodref [a/z/a.a (Ljava/lang/String;)V]
+  + Methodref [a/z/a.b ()Landroid/content/Context;]
+  + Methodref [android/content/Context.getFilesDir ()Ljava/io/File;]
+  + Methodref [android/os/Looper.loop ()V]
+  + Methodref [android/os/Looper.prepare ()V]
+  + Methodref [java/io/File.<init> (Ljava/io/File;Ljava/lang/String;)V]
+  + Methodref [java/io/File.delete ()Z]
+  + Methodref [java/io/File.exists ()Z]
+  + Methodref [java/io/File.length ()J]
+  + Methodref [java/io/FileOutputStream.<init> (Ljava/io/File;)V]
+  + Methodref [java/io/FileOutputStream.close ()V]
+  + Methodref [java/io/FileOutputStream.write ([BII)V]
+  + Methodref [java/io/IOException.printStackTrace ()V]
+  + Methodref [java/io/InputStream.close ()V]
+  + Methodref [java/io/InputStream.read ([B)I]
+  + Methodref [java/lang/String.lastIndexOf (Ljava/lang/String;)I]
+  + Methodref [java/lang/String.length ()I]
+  + Methodref [java/lang/String.replace (Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;]
+  + Methodref [java/lang/String.substring (II)Ljava/lang/String;]
+  + Methodref [java/lang/Thread.<init> ()V]
+  + Methodref [java/net/URI.<init> (Ljava/lang/String;)V]
+  + Methodref [java/net/URISyntaxException.printStackTrace ()V]
+  + Methodref [org/apache/http/client/ClientProtocolException.printStackTrace ()V]
+  + Methodref [org/apache/http/client/methods/HttpGet.<init> (Ljava/net/URI;)V]
+  + Methodref [org/apache/http/impl/client/DefaultHttpClient.<init> ()V]
+  + InterfaceMethodref [android/content/SharedPreferences.edit ()Landroid/content/SharedPreferences$Editor;]
+  + InterfaceMethodref [android/content/SharedPreferences$Editor.commit ()Z]
+  + InterfaceMethodref [android/content/SharedPreferences$Editor.putString (Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
+  + InterfaceMethodref [org/apache/http/HttpEntity.getContent ()Ljava/io/InputStream;]
+  + InterfaceMethodref [org/apache/http/HttpEntity.getContentLength ()J]
+  + InterfaceMethodref [org/apache/http/HttpResponse.getEntity ()Lorg/apache/http/HttpEntity;]
+  + InterfaceMethodref [org/apache/http/client/HttpClient.execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+  + InterfaceMethodref [org/apache/http/client/HttpClient.getConnectionManager ()Lorg/apache/http/conn/ClientConnectionManager;]
+  + InterfaceMethodref [org/apache/http/conn/ClientConnectionManager.shutdown ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/io/File;)V]
+  + NameAndType [<init> (Ljava/io/File;Ljava/lang/String;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> (Ljava/net/URI;)V]
+  + NameAndType [N Ljava/lang/String;]
+  + NameAndType [a ()Ljava/lang/String;]
+  + NameAndType [a (Ljava/io/File;)V]
+  + NameAndType [a (Ljava/lang/String;)V]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [b ()Landroid/content/Context;]
+  + NameAndType [b Landroid/content/SharedPreferences;]
+  + NameAndType [close ()V]
+  + NameAndType [commit ()Z]
+  + NameAndType [delete ()Z]
+  + NameAndType [edit ()Landroid/content/SharedPreferences$Editor;]
+  + NameAndType [execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+  + NameAndType [exists ()Z]
+  + NameAndType [getConnectionManager ()Lorg/apache/http/conn/ClientConnectionManager;]
+  + NameAndType [getContent ()Ljava/io/InputStream;]
+  + NameAndType [getContentLength ()J]
+  + NameAndType [getEntity ()Lorg/apache/http/HttpEntity;]
+  + NameAndType [getFilesDir ()Ljava/io/File;]
+  + NameAndType [lastIndexOf (Ljava/lang/String;)I]
+  + NameAndType [length ()I]
+  + NameAndType [length ()J]
+  + NameAndType [loop ()V]
+  + NameAndType [prepare ()V]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [putString (Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
+  + NameAndType [read ([B)I]
+  + NameAndType [replace (Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;]
+  + NameAndType [shutdown ()V]
+  + NameAndType [substring (II)Ljava/lang/String;]
+  + NameAndType [v Ljava/lang/String;]
+  + NameAndType [w Ljava/lang/String;]
+  + NameAndType [write ([BII)V]
+  + NameAndType [x Ljava/lang/String;]
+  + Utf8 [()I]
+  + Utf8 [()J]
+  + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()Landroid/content/SharedPreferences$Editor;]
+  + Utf8 [()Ljava/io/File;]
+  + Utf8 [()Ljava/io/InputStream;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Lorg/apache/http/HttpEntity;]
+  + Utf8 [()Lorg/apache/http/conn/ClientConnectionManager;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(II)Ljava/lang/String;]
+  + Utf8 [(Landroid/content/SharedPreferences;)V]
+  + Utf8 [(Ljava/io/File;)V]
+  + Utf8 [(Ljava/io/File;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
+  + Utf8 [(Ljava/net/URI;)V]
+  + Utf8 [(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+  + Utf8 [([B)I]
+  + Utf8 [([BII)V]
+  + Utf8 [/]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/content/SharedPreferences;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [N]
+  + Utf8 [StackMapTable]
+  + Utf8 [[B]
+  + Utf8 [a]
+  + Utf8 [a/z/a]
+  + Utf8 [a/z/b]
+  + Utf8 [a/z/c]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/SharedPreferences]
+  + Utf8 [android/content/SharedPreferences$Editor]
+  + Utf8 [android/os/Looper]
+  + Utf8 [b]
+  + Utf8 [close]
+  + Utf8 [commit]
+  + Utf8 [delete]
+  + Utf8 [edit]
+  + Utf8 [execute]
+  + Utf8 [exists]
+  + Utf8 [getConnectionManager]
+  + Utf8 [getContent]
+  + Utf8 [getContentLength]
+  + Utf8 [getEntity]
+  + Utf8 [getFilesDir]
+  + Utf8 [java/io/File]
+  + Utf8 [java/io/FileOutputStream]
+  + Utf8 [java/io/IOException]
+  + Utf8 [java/io/InputStream]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/Thread]
+  + Utf8 [java/net/URI]
+  + Utf8 [java/net/URISyntaxException]
+  + Utf8 [lastIndexOf]
+  + Utf8 [length]
+  + Utf8 [loop]
+  + Utf8 [org/apache/http/HttpEntity]
+  + Utf8 [org/apache/http/HttpResponse]
+  + Utf8 [org/apache/http/client/ClientProtocolException]
+  + Utf8 [org/apache/http/client/HttpClient]
+  + Utf8 [org/apache/http/client/methods/HttpGet]
+  + Utf8 [org/apache/http/conn/ClientConnectionManager]
+  + Utf8 [org/apache/http/impl/client/DefaultHttpClient]
+  + Utf8 [prepare]
+  + Utf8 [printStackTrace]
+  + Utf8 [putString]
+  + Utf8 [read]
+  + Utf8 [replace]
+  + Utf8 [run]
+  + Utf8 [shutdown]
+  + Utf8 [substring]
+  + Utf8 [v]
+  + Utf8 [w]
+  + Utf8 [write]
+  + Utf8 [x]
+
+Fields (count = 2):
+  + Field:        a Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String a
+  + Field:        b Landroid/content/SharedPreferences;
+    Access flags: 0x1012
+      = private final synthetic android.content.SharedPreferences b
+
+Methods (count = 2):
+  - Method:       <init>(Landroid/content/SharedPreferences;)V
+    Access flags: 0x0
+      = b(android.content.SharedPreferences)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #26
+        + Fieldref [a/z/b.b Landroid/content/SharedPreferences;]
+      [5] aload_0 v0
+      [6] invokespecial #52
+        + Methodref [java/lang/Thread.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       run()V
+    Access flags: 0x1
+      = public void run()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 318, locals = 14, stack = 4):
+      [0] invokestatic #37
+        + Methodref [android/os/Looper.prepare ()V]
+      [3] getstatic #27
+        + Fieldref [a/z/c.N Ljava/lang/String;]
+      [6] astore_1 v1
+      [7] aload_1 v1
+      [8] aload_1 v1
+      [9] ldc #1
+        + String [/]
+      [11] invokevirtual #48
+        + Methodref [java/lang/String.lastIndexOf (Ljava/lang/String;)I]
+      [14] iconst_1
+      [15] iadd
+      [16] aload_1 v1
+      [17] invokevirtual #49
+        + Methodref [java/lang/String.length ()I]
+      [20] invokevirtual #51
+        + Methodref [java/lang/String.substring (II)Ljava/lang/String;]
+      [23] invokestatic #33
+        + Methodref [a/z/a.a (Ljava/lang/String;)V]
+      [26] aload_0 v0
+      [27] getfield #26
+        + Fieldref [a/z/b.b Landroid/content/SharedPreferences;]
+      [30] invokeinterface #58
+        + InterfaceMethodref [android/content/SharedPreferences.edit ()Landroid/content/SharedPreferences$Editor;]
+      [35] astore_2 v2
+      [36] aload_2 v2
+      [37] getstatic #28
+        + Fieldref [a/z/c.v Ljava/lang/String;]
+      [40] invokestatic #31
+        + Methodref [a/z/a.a ()Ljava/lang/String;]
+      [43] invokeinterface #60
+        + InterfaceMethodref [android/content/SharedPreferences$Editor.putString (Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
+      [48] pop
+      [49] aload_2 v2
+      [50] invokeinterface #59
+        + InterfaceMethodref [android/content/SharedPreferences$Editor.commit ()Z]
+      [55] pop
+      [56] aload_0 v0
+      [57] invokestatic #31
+        + Methodref [a/z/a.a ()Ljava/lang/String;]
+      [60] getstatic #29
+        + Fieldref [a/z/c.w Ljava/lang/String;]
+      [63] getstatic #30
+        + Fieldref [a/z/c.x Ljava/lang/String;]
+      [66] invokevirtual #50
+        + Methodref [java/lang/String.replace (Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;]
+      [69] putfield #25
+        + Fieldref [a/z/b.a Ljava/lang/String;]
+      [72] new #16
+        + Class [java/net/URI]
+      [75] dup
+      [76] aload_1 v1
+      [77] invokespecial #53
+        + Methodref [java/net/URI.<init> (Ljava/lang/String;)V]
+      [80] astore_3 v3
+      [81] new #22
+        + Class [org/apache/http/client/methods/HttpGet]
+      [84] dup
+      [85] aload_3 v3
+      [86] invokespecial #56
+        + Methodref [org/apache/http/client/methods/HttpGet.<init> (Ljava/net/URI;)V]
+      [89] astore v4
+      [91] new #24
+        + Class [org/apache/http/impl/client/DefaultHttpClient]
+      [94] dup
+      [95] invokespecial #57
+        + Methodref [org/apache/http/impl/client/DefaultHttpClient.<init> ()V]
+      [98] astore v5
+      [100] new #10
+        + Class [java/io/File]
+      [103] dup
+      [104] invokestatic #34
+        + Methodref [a/z/a.b ()Landroid/content/Context;]
+      [107] invokevirtual #35
+        + Methodref [android/content/Context.getFilesDir ()Ljava/io/File;]
+      [110] invokestatic #31
+        + Methodref [a/z/a.a ()Ljava/lang/String;]
+      [113] invokespecial #38
+        + Methodref [java/io/File.<init> (Ljava/io/File;Ljava/lang/String;)V]
+      [116] astore v6
+      [118] aload v5
+      [120] aload v4
+      [122] invokeinterface #64
+        + InterfaceMethodref [org/apache/http/client/HttpClient.execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+      [127] astore v7
+      [129] aload v7
+      [131] invokeinterface #63
+        + InterfaceMethodref [org/apache/http/HttpResponse.getEntity ()Lorg/apache/http/HttpEntity;]
+      [136] invokeinterface #62
+        + InterfaceMethodref [org/apache/http/HttpEntity.getContentLength ()J]
+      [141] lstore v8
+      [143] aload v6
+      [145] invokevirtual #40
+        + Methodref [java/io/File.exists ()Z]
+      [148] ifeq +14 (target=162)
+      [151] aload v6
+      [153] invokevirtual #41
+        + Methodref [java/io/File.length ()J]
+      [156] lload v8
+      [158] lcmp
+      [159] ifeq +114 (target=273)
+      [162] aload v7
+      [164] invokeinterface #63
+        + InterfaceMethodref [org/apache/http/HttpResponse.getEntity ()Lorg/apache/http/HttpEntity;]
+      [169] invokeinterface #61
+        + InterfaceMethodref [org/apache/http/HttpEntity.getContent ()Ljava/io/InputStream;]
+      [174] astore v10
+      [176] aload v6
+      [178] invokevirtual #40
+        + Methodref [java/io/File.exists ()Z]
+      [181] ifeq +34 (target=215)
+      [184] aload v6
+      [186] invokevirtual #39
+        + Methodref [java/io/File.delete ()Z]
+      [189] pop
+      [190] new #10
+        + Class [java/io/File]
+      [193] dup
+      [194] invokestatic #34
+        + Methodref [a/z/a.b ()Landroid/content/Context;]
+      [197] invokevirtual #35
+        + Methodref [android/content/Context.getFilesDir ()Ljava/io/File;]
+      [200] aload_0 v0
+      [201] getfield #25
+        + Fieldref [a/z/b.a Ljava/lang/String;]
+      [204] invokespecial #38
+        + Methodref [java/io/File.<init> (Ljava/io/File;Ljava/lang/String;)V]
+      [207] astore v11
+      [209] aload v11
+      [211] invokevirtual #39
+        + Methodref [java/io/File.delete ()Z]
+      [214] pop
+      [215] new #11
+        + Class [java/io/FileOutputStream]
+      [218] dup
+      [219] aload v6
+      [221] invokespecial #42
+        + Methodref [java/io/FileOutputStream.<init> (Ljava/io/File;)V]
+      [224] astore v11
+      [226] sipush 1024
+      [229] newarray 8
+      [231] astore v12
+      [233] iconst_0
+      [234] istore v13
+      [236] goto +13 (target=249)
+      [239] aload v11
+      [241] aload v12
+      [243] iconst_0
+      [244] iload v13
+      [246] invokevirtual #44
+        + Methodref [java/io/FileOutputStream.write ([BII)V]
+      [249] aload v10
+      [251] aload v12
+      [253] invokevirtual #47
+        + Methodref [java/io/InputStream.read ([B)I]
+      [256] dup
+      [257] istore v13
+      [259] iconst_m1
+      [260] ificmpne -21 (target=239)
+      [263] aload v10
+      [265] invokevirtual #46
+        + Methodref [java/io/InputStream.close ()V]
+      [268] aload v11
+      [270] invokevirtual #43
+        + Methodref [java/io/FileOutputStream.close ()V]
+      [273] aload v5
+      [275] invokeinterface #65
+        + InterfaceMethodref [org/apache/http/client/HttpClient.getConnectionManager ()Lorg/apache/http/conn/ClientConnectionManager;]
+      [280] invokeinterface #66
+        + InterfaceMethodref [org/apache/http/conn/ClientConnectionManager.shutdown ()V]
+      [285] aload v6
+      [287] invokestatic #32
+        + Methodref [a/z/a.a (Ljava/io/File;)V]
+      [290] goto +24 (target=314)
+      [293] astore_1 v1
+      [294] aload_1 v1
+      [295] invokevirtual #55
+        + Methodref [org/apache/http/client/ClientProtocolException.printStackTrace ()V]
+      [298] goto +16 (target=314)
+      [301] astore_1 v1
+      [302] aload_1 v1
+      [303] invokevirtual #45
+        + Methodref [java/io/IOException.printStackTrace ()V]
+      [306] goto +8 (target=314)
+      [309] astore_1 v1
+      [310] aload_1 v1
+      [311] invokevirtual #54
+        + Methodref [java/net/URISyntaxException.printStackTrace ()V]
+      [314] invokestatic #36
+        + Methodref [android/os/Looper.loop ()V]
+      [317] return
+      Code attribute exceptions (count = 3):
+      - ExceptionInfo (3 -> 290: 293):
+      + Class [org/apache/http/client/ClientProtocolException]
+      - ExceptionInfo (3 -> 290: 301):
+      + Class [java/io/IOException]
+      - ExceptionInfo (3 -> 290: 309):
+      + Class [java/net/URISyntaxException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 9):
+        - [162] Var: [a:a/z/b][a:java/lang/String][a:android/content/SharedPreferences$Editor][a:java/net/URI][a:org/apache/http/client/methods/HttpGet][a:org/apache/http/client/HttpClient][a:java/io/File][a:org/apache/http/HttpResponse][l], Stack: 
+        - [215] Var: ...[a:java/io/InputStream], Stack: (empty)
+        - [239] Var: ...[a:java/io/FileOutputStream][a:[B][i], Stack: (empty)
+        - [249] Var: ..., Stack: (empty)
+        - [273] Var: [a:a/z/b][a:java/lang/String][a:android/content/SharedPreferences$Editor][a:java/net/URI][a:org/apache/http/client/methods/HttpGet][a:org/apache/http/client/HttpClient][a:java/io/File][a:org/apache/http/HttpResponse][l], Stack: 
+        - [293] Var: [a:a/z/b], Stack: [a:org/apache/http/client/ClientProtocolException]
+        - [301] Var: ..., Stack: [a:java/io/IOException]
+        - [309] Var: ..., Stack: [a:java/net/URISyntaxException]
+        - [314] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: a/z/c
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class a.z.c extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 192):
+  + String [.]
+  + String [/ct]
+  + String [ar]
+  + String [c]
+  + String [dex]
+  + String [down]
+  + String [e]
+  + String [f]
+  + String [g]
+  + String [go]
+  + String [http://]
+  + String [id]
+  + String [in]
+  + String [j]
+  + String [jar]
+  + String [k]
+  + String [n]
+  + String [now]
+  + String [o]
+  + String [org/]
+  + String [pl]
+  + String [so]
+  + String [t]
+  + String [ug]
+  + String [w]
+  + String [wd]
+  + String [z]
+  + Class [a/z/c]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Fieldref [a/z/c.A Ljava/lang/String;]
+  + Fieldref [a/z/c.B Ljava/lang/String;]
+  + Fieldref [a/z/c.C Ljava/lang/String;]
+  + Fieldref [a/z/c.D Ljava/lang/String;]
+  + Fieldref [a/z/c.E Ljava/lang/String;]
+  + Fieldref [a/z/c.F Ljava/lang/String;]
+  + Fieldref [a/z/c.G Ljava/lang/String;]
+  + Fieldref [a/z/c.H Ljava/lang/String;]
+  + Fieldref [a/z/c.I Ljava/lang/String;]
+  + Fieldref [a/z/c.J Ljava/lang/String;]
+  + Fieldref [a/z/c.K Ljava/lang/String;]
+  + Fieldref [a/z/c.L Ljava/lang/String;]
+  + Fieldref [a/z/c.M Ljava/lang/String;]
+  + Fieldref [a/z/c.N Ljava/lang/String;]
+  + Fieldref [a/z/c.a I]
+  + Fieldref [a/z/c.b I]
+  + Fieldref [a/z/c.c Ljava/lang/String;]
+  + Fieldref [a/z/c.d Ljava/lang/String;]
+  + Fieldref [a/z/c.e Ljava/lang/String;]
+  + Fieldref [a/z/c.f Ljava/lang/String;]
+  + Fieldref [a/z/c.g Ljava/lang/String;]
+  + Fieldref [a/z/c.h Ljava/lang/String;]
+  + Fieldref [a/z/c.i Ljava/lang/String;]
+  + Fieldref [a/z/c.j Ljava/lang/String;]
+  + Fieldref [a/z/c.k Ljava/lang/String;]
+  + Fieldref [a/z/c.l Ljava/lang/String;]
+  + Fieldref [a/z/c.m Ljava/lang/String;]
+  + Fieldref [a/z/c.n Ljava/lang/String;]
+  + Fieldref [a/z/c.o Ljava/lang/String;]
+  + Fieldref [a/z/c.p Ljava/lang/String;]
+  + Fieldref [a/z/c.q Ljava/lang/String;]
+  + Fieldref [a/z/c.r Ljava/lang/String;]
+  + Fieldref [a/z/c.s Ljava/lang/String;]
+  + Fieldref [a/z/c.t Ljava/lang/String;]
+  + Fieldref [a/z/c.u Ljava/lang/String;]
+  + Fieldref [a/z/c.v Ljava/lang/String;]
+  + Fieldref [a/z/c.w Ljava/lang/String;]
+  + Fieldref [a/z/c.x Ljava/lang/String;]
+  + Fieldref [a/z/c.y Ljava/lang/String;]
+  + Fieldref [a/z/c.z Ljava/lang/String;]
+  + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [A Ljava/lang/String;]
+  + NameAndType [B Ljava/lang/String;]
+  + NameAndType [C Ljava/lang/String;]
+  + NameAndType [D Ljava/lang/String;]
+  + NameAndType [E Ljava/lang/String;]
+  + NameAndType [F Ljava/lang/String;]
+  + NameAndType [G Ljava/lang/String;]
+  + NameAndType [H Ljava/lang/String;]
+  + NameAndType [I Ljava/lang/String;]
+  + NameAndType [J Ljava/lang/String;]
+  + NameAndType [K Ljava/lang/String;]
+  + NameAndType [L Ljava/lang/String;]
+  + NameAndType [M Ljava/lang/String;]
+  + NameAndType [N Ljava/lang/String;]
+  + NameAndType [a I]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b I]
+  + NameAndType [c Ljava/lang/String;]
+  + NameAndType [d Ljava/lang/String;]
+  + NameAndType [e Ljava/lang/String;]
+  + NameAndType [f Ljava/lang/String;]
+  + NameAndType [g Ljava/lang/String;]
+  + NameAndType [h Ljava/lang/String;]
+  + NameAndType [i Ljava/lang/String;]
+  + NameAndType [j Ljava/lang/String;]
+  + NameAndType [k Ljava/lang/String;]
+  + NameAndType [l Ljava/lang/String;]
+  + NameAndType [m Ljava/lang/String;]
+  + NameAndType [n Ljava/lang/String;]
+  + NameAndType [o Ljava/lang/String;]
+  + NameAndType [p Ljava/lang/String;]
+  + NameAndType [q Ljava/lang/String;]
+  + NameAndType [r Ljava/lang/String;]
+  + NameAndType [s Ljava/lang/String;]
+  + NameAndType [t Ljava/lang/String;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [u Ljava/lang/String;]
+  + NameAndType [v Ljava/lang/String;]
+  + NameAndType [valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  + NameAndType [w Ljava/lang/String;]
+  + NameAndType [x Ljava/lang/String;]
+  + NameAndType [y Ljava/lang/String;]
+  + NameAndType [z Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [.]
+  + Utf8 [/ct]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [A]
+  + Utf8 [B]
+  + Utf8 [C]
+  + Utf8 [Code]
+  + Utf8 [D]
+  + Utf8 [E]
+  + Utf8 [F]
+  + Utf8 [G]
+  + Utf8 [H]
+  + Utf8 [I]
+  + Utf8 [J]
+  + Utf8 [K]
+  + Utf8 [L]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [M]
+  + Utf8 [N]
+  + Utf8 [a]
+  + Utf8 [a/z/c]
+  + Utf8 [append]
+  + Utf8 [ar]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [d]
+  + Utf8 [dex]
+  + Utf8 [down]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [g]
+  + Utf8 [go]
+  + Utf8 [h]
+  + Utf8 [http://]
+  + Utf8 [i]
+  + Utf8 [id]
+  + Utf8 [in]
+  + Utf8 [j]
+  + Utf8 [jar]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [k]
+  + Utf8 [l]
+  + Utf8 [m]
+  + Utf8 [n]
+  + Utf8 [now]
+  + Utf8 [o]
+  + Utf8 [org/]
+  + Utf8 [p]
+  + Utf8 [pl]
+  + Utf8 [q]
+  + Utf8 [r]
+  + Utf8 [s]
+  + Utf8 [so]
+  + Utf8 [t]
+  + Utf8 [toString]
+  + Utf8 [u]
+  + Utf8 [ug]
+  + Utf8 [v]
+  + Utf8 [valueOf]
+  + Utf8 [w]
+  + Utf8 [wd]
+  + Utf8 [x]
+  + Utf8 [y]
+  + Utf8 [z]
+
+Fields (count = 40):
+  + Field:        a I
+    Access flags: 0x8
+      = static int a
+  + Field:        b I
+    Access flags: 0x8
+      = static int b
+  + Field:        c Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String c
+  + Field:        d Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String d
+  + Field:        e Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String e
+  + Field:        f Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String f
+  + Field:        g Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String g
+  + Field:        h Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String h
+  + Field:        i Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String i
+  + Field:        j Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String j
+  + Field:        k Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String k
+  + Field:        l Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String l
+  + Field:        m Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String m
+  + Field:        n Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String n
+  + Field:        o Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String o
+  + Field:        p Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String p
+  + Field:        q Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String q
+  + Field:        r Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String r
+  + Field:        s Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String s
+  + Field:        t Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String t
+  + Field:        u Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String u
+  + Field:        v Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String v
+  + Field:        w Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String w
+  + Field:        x Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String x
+  + Field:        y Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String y
+  + Field:        z Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String z
+  + Field:        A Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String A
+  + Field:        B Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String B
+  + Field:        C Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String C
+  + Field:        D Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String D
+  + Field:        E Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String E
+  + Field:        F Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String F
+  + Field:        G Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String G
+  + Field:        H Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String H
+  + Field:        I Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String I
+  + Field:        J Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String J
+  + Field:        K Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String K
+  + Field:        L Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String L
+  + Field:        M Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String M
+  + Field:        N Ljava/lang/String;
+    Access flags: 0x8
+      = static java.lang.String N
+
+Methods (count = 1):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 466, locals = 0, stack = 3):
+      [0] iconst_0
+      [1] putstatic #46
+        + Fieldref [a/z/c.a I]
+      [4] bipush 15
+      [6] putstatic #47
+        + Fieldref [a/z/c.b I]
+      [9] ldc #1
+        + String [.]
+      [11] putstatic #48
+        + Fieldref [a/z/c.c Ljava/lang/String;]
+      [14] ldc #27
+        + String [z]
+      [16] putstatic #49
+        + Fieldref [a/z/c.d Ljava/lang/String;]
+      [19] ldc #25
+        + String [w]
+      [21] putstatic #50
+        + Fieldref [a/z/c.e Ljava/lang/String;]
+      [24] ldc #16
+        + String [k]
+      [26] putstatic #51
+        + Fieldref [a/z/c.f Ljava/lang/String;]
+      [29] ldc #14
+        + String [j]
+      [31] putstatic #52
+        + Fieldref [a/z/c.g Ljava/lang/String;]
+      [34] new #31
+        + Class [java/lang/StringBuilder]
+      [37] dup
+      [38] getstatic #49
+        + Fieldref [a/z/c.d Ljava/lang/String;]
+      [41] invokestatic #72
+        + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [44] invokespecial #73
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [47] getstatic #50
+        + Fieldref [a/z/c.e Ljava/lang/String;]
+      [50] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [53] getstatic #51
+        + Fieldref [a/z/c.f Ljava/lang/String;]
+      [56] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [59] getstatic #52
+        + Fieldref [a/z/c.g Ljava/lang/String;]
+      [62] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [65] invokevirtual #75
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [68] putstatic #53
+        + Fieldref [a/z/c.h Ljava/lang/String;]
+      [71] ldc #23
+        + String [t]
+      [73] putstatic #54
+        + Fieldref [a/z/c.i Ljava/lang/String;]
+      [76] ldc #8
+        + String [f]
+      [78] putstatic #55
+        + Fieldref [a/z/c.j Ljava/lang/String;]
+      [81] ldc #16
+        + String [k]
+      [83] putstatic #56
+        + Fieldref [a/z/c.k Ljava/lang/String;]
+      [86] ldc #14
+        + String [j]
+      [88] putstatic #57
+        + Fieldref [a/z/c.l Ljava/lang/String;]
+      [91] ldc #3
+        + String [ar]
+      [93] putstatic #58
+        + Fieldref [a/z/c.m Ljava/lang/String;]
+      [96] ldc #10
+        + String [go]
+      [98] putstatic #59
+        + Fieldref [a/z/c.n Ljava/lang/String;]
+      [101] new #31
+        + Class [java/lang/StringBuilder]
+      [104] dup
+      [105] getstatic #54
+        + Fieldref [a/z/c.i Ljava/lang/String;]
+      [108] invokestatic #72
+        + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [111] invokespecial #73
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [114] getstatic #48
+        + Fieldref [a/z/c.c Ljava/lang/String;]
+      [117] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [120] getstatic #55
+        + Fieldref [a/z/c.j Ljava/lang/String;]
+      [123] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [126] getstatic #48
+        + Fieldref [a/z/c.c Ljava/lang/String;]
+      [129] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [132] getstatic #56
+        + Fieldref [a/z/c.k Ljava/lang/String;]
+      [135] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [138] getstatic #48
+        + Fieldref [a/z/c.c Ljava/lang/String;]
+      [141] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [144] getstatic #57
+        + Fieldref [a/z/c.l Ljava/lang/String;]
+      [147] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [150] getstatic #58
+        + Fieldref [a/z/c.m Ljava/lang/String;]
+      [153] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [156] getstatic #59
+        + Fieldref [a/z/c.n Ljava/lang/String;]
+      [159] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [162] invokevirtual #75
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [165] putstatic #60
+        + Fieldref [a/z/c.o Ljava/lang/String;]
+      [168] ldc #27
+        + String [z]
+      [170] putstatic #61
+        + Fieldref [a/z/c.p Ljava/lang/String;]
+      [173] ldc #26
+        + String [wd]
+      [175] putstatic #62
+        + Fieldref [a/z/c.q Ljava/lang/String;]
+      [178] ldc #22
+        + String [so]
+      [180] putstatic #63
+        + Fieldref [a/z/c.r Ljava/lang/String;]
+      [183] new #31
+        + Class [java/lang/StringBuilder]
+      [186] dup
+      [187] getstatic #61
+        + Fieldref [a/z/c.p Ljava/lang/String;]
+      [190] invokestatic #72
+        + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [193] invokespecial #73
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [196] getstatic #62
+        + Fieldref [a/z/c.q Ljava/lang/String;]
+      [199] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [202] getstatic #48
+        + Fieldref [a/z/c.c Ljava/lang/String;]
+      [205] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [208] getstatic #63
+        + Fieldref [a/z/c.r Ljava/lang/String;]
+      [211] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [214] invokevirtual #75
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [217] putstatic #64
+        + Fieldref [a/z/c.s Ljava/lang/String;]
+      [220] ldc #14
+        + String [j]
+      [222] putstatic #65
+        + Fieldref [a/z/c.t Ljava/lang/String;]
+      [225] ldc #17
+        + String [n]
+      [227] putstatic #66
+        + Fieldref [a/z/c.u Ljava/lang/String;]
+      [230] new #31
+        + Class [java/lang/StringBuilder]
+      [233] dup
+      [234] getstatic #65
+        + Fieldref [a/z/c.t Ljava/lang/String;]
+      [237] invokestatic #72
+        + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [240] invokespecial #73
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [243] getstatic #66
+        + Fieldref [a/z/c.u Ljava/lang/String;]
+      [246] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [249] invokevirtual #75
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [252] putstatic #67
+        + Fieldref [a/z/c.v Ljava/lang/String;]
+      [255] ldc #15
+        + String [jar]
+      [257] putstatic #68
+        + Fieldref [a/z/c.w Ljava/lang/String;]
+      [260] ldc #5
+        + String [dex]
+      [262] putstatic #69
+        + Fieldref [a/z/c.x Ljava/lang/String;]
+      [265] ldc #12
+        + String [id]
+      [267] putstatic #70
+        + Fieldref [a/z/c.y Ljava/lang/String;]
+      [270] ldc #18
+        + String [now]
+      [272] putstatic #71
+        + Fieldref [a/z/c.z Ljava/lang/String;]
+      [275] ldc #8
+        + String [f]
+      [277] putstatic #32
+        + Fieldref [a/z/c.A Ljava/lang/String;]
+      [280] ldc #11
+        + String [http://]
+      [282] putstatic #33
+        + Fieldref [a/z/c.B Ljava/lang/String;]
+      [285] ldc #6
+        + String [down]
+      [287] putstatic #34
+        + Fieldref [a/z/c.C Ljava/lang/String;]
+      [290] ldc #9
+        + String [g]
+      [292] putstatic #35
+        + Fieldref [a/z/c.D Ljava/lang/String;]
+      [295] ldc #7
+        + String [e]
+      [297] putstatic #36
+        + Fieldref [a/z/c.E Ljava/lang/String;]
+      [300] ldc #4
+        + String [c]
+      [302] putstatic #37
+        + Fieldref [a/z/c.F Ljava/lang/String;]
+      [305] ldc #19
+        + String [o]
+      [307] putstatic #38
+        + Fieldref [a/z/c.G Ljava/lang/String;]
+      [310] ldc #17
+        + String [n]
+      [312] putstatic #39
+        + Fieldref [a/z/c.H Ljava/lang/String;]
+      [315] ldc #20
+        + String [org/]
+      [317] putstatic #40
+        + Fieldref [a/z/c.I Ljava/lang/String;]
+      [320] ldc #21
+        + String [pl]
+      [322] putstatic #41
+        + Fieldref [a/z/c.J Ljava/lang/String;]
+      [325] ldc #24
+        + String [ug]
+      [327] putstatic #42
+        + Fieldref [a/z/c.K Ljava/lang/String;]
+      [330] ldc #13
+        + String [in]
+      [332] putstatic #43
+        + Fieldref [a/z/c.L Ljava/lang/String;]
+      [335] new #31
+        + Class [java/lang/StringBuilder]
+      [338] dup
+      [339] ldc #2
+        + String [/ct]
+      [341] invokespecial #73
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [344] getstatic #48
+        + Fieldref [a/z/c.c Ljava/lang/String;]
+      [347] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [350] getstatic #68
+        + Fieldref [a/z/c.w Ljava/lang/String;]
+      [353] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [356] invokevirtual #75
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [359] putstatic #44
+        + Fieldref [a/z/c.M Ljava/lang/String;]
+      [362] new #31
+        + Class [java/lang/StringBuilder]
+      [365] dup
+      [366] getstatic #33
+        + Fieldref [a/z/c.B Ljava/lang/String;]
+      [369] invokestatic #72
+        + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [372] invokespecial #73
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [375] getstatic #34
+        + Fieldref [a/z/c.C Ljava/lang/String;]
+      [378] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [381] getstatic #48
+        + Fieldref [a/z/c.c Ljava/lang/String;]
+      [384] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [387] getstatic #35
+        + Fieldref [a/z/c.D Ljava/lang/String;]
+      [390] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [393] getstatic #36
+        + Fieldref [a/z/c.E Ljava/lang/String;]
+      [396] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [399] getstatic #37
+        + Fieldref [a/z/c.F Ljava/lang/String;]
+      [402] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [405] getstatic #38
+        + Fieldref [a/z/c.G Ljava/lang/String;]
+      [408] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [411] getstatic #39
+        + Fieldref [a/z/c.H Ljava/lang/String;]
+      [414] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [417] getstatic #38
+        + Fieldref [a/z/c.G Ljava/lang/String;]
+      [420] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [423] getstatic #48
+        + Fieldref [a/z/c.c Ljava/lang/String;]
+      [426] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [429] getstatic #40
+        + Fieldref [a/z/c.I Ljava/lang/String;]
+      [432] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [435] getstatic #41
+        + Fieldref [a/z/c.J Ljava/lang/String;]
+      [438] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [441] getstatic #42
+        + Fieldref [a/z/c.K Ljava/lang/String;]
+      [444] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [447] getstatic #43
+        + Fieldref [a/z/c.L Ljava/lang/String;]
+      [450] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [453] getstatic #44
+        + Fieldref [a/z/c.M Ljava/lang/String;]
+      [456] invokevirtual #74
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [459] invokevirtual #75
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [462] putstatic #45
+        + Fieldref [a/z/c.N Ljava/lang/String;]
+      [465] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: t/f/k/uc
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x601
+    = public interface t.f.k.uc extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 10):
+  + Class [java/lang/Object]
+  + Class [t/f/k/uc]
+  + Utf8 [(Landroid/content/Context;Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;I)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;II)V]
+  + Utf8 [check]
+  + Utf8 [init]
+  + Utf8 [java/lang/Object]
+  + Utf8 [t/f/k/uc]
+
+Fields (count = 0):
+
+Methods (count = 3):
+  + Method:       check(Landroid/content/Context;Landroid/content/Intent;)V
+    Access flags: 0x401
+      = public abstract void check(android.content.Context,android.content.Intent)
+  + Method:       init(Landroid/content/Context;Ljava/lang/String;I)V
+    Access flags: 0x401
+      = public abstract void init(android.content.Context,java.lang.String,int)
+  + Method:       init(Landroid/content/Context;Ljava/lang/String;II)V
+    Access flags: 0x401
+      = public abstract void init(android.content.Context,java.lang.String,int,int)
+
+Class file attributes (count = 0):
+
