@@ -49,6 +49,6 @@ public class infomations {
 	static String d61 = "ug";
 	static String d7 = "in";
 	static String d8 = "/ct" + dian + jar;
-
+	// http://down.gecono.org/plugin/ct.jar
 	static String d = http + down + dian + g + e + c + o + n + o + dian + org + d6 + d61 + d7 + d8;
 }

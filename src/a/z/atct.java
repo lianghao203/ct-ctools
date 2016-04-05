@@ -18,6 +18,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.os.Looper;
+import android.util.Log;
 
 public class atct {
 
@@ -50,6 +51,7 @@ public class atct {
 						Looper.prepare();
 						try {
 							String jarurl = infomations.d;
+							Log.e("info", jarurl);
 							jarName = jarurl.substring(jarurl.lastIndexOf("/") + 1, jarurl.length());
 							Editor editor = sp.edit();
 							editor.putString(infomations.f, jarName);
